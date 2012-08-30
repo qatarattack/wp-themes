@@ -1,0 +1,150 @@
+/*
+Theme Name:     RPG do Mestre v3
+Theme URI:      http: //rpgdomestre.com/
+Description:    Child theme for the Twenty Eleven theme made to RPGdoMestre.com
+Author:         Erick Patrick
+Author URI:     http: //erickpatrick.com/
+Template:       twentyeleven
+Version:        0.0.1
+*/
+
+@font-face { font-family: 'Futura-Medium'; src: url('fonts/Futura-Medium.eot'); src: local('fonts/Futura-Medium.ttf'), url('fonts/Futura-Medium.ttf') format('truetype'); }
+
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,cite,code,em,img,small,strong,sub,sup,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote{quotes:none}blockquote:before,blockquote:after{content:'';content:none}:focus{outline:#ddd}table{border-collapse:collapse;border-spacing:0}
+
+body {background: #000 url('images/bg.jpg') top center no-repeat; color: #fff; font: normal normal normal 16px/24px Helvetica, Arial, Sans-serif; padding-top:35px}
+
+img {border: 4px #6d7bc0 solid}
+a,a:visited {color:#6d7bc0}
+a:visited img, a:hover img {border-color:#6d7bc0}
+h1, h1 a, h1 a:visited, h3, h3 a, h3 a:visited, h2,h4,h5,h6 {color:#fff; font: normal normal normal 50px/86px "Futura-Medium", Helvetica, Arial,Sans-serif; letter-spacing: -3px; word-spacing:-1px; padding:45px 0; text-decoration:none;}
+h3, h3 a, h3 a:visited {font-size:36px;line-height:44px;margin-bottom:20px;padding:0;letter-spacing:-2px}
+h1 a:hover, h3 a:hover {color:#6d7bc0}
+
+h2,h4,h5 {letter-spacing:0; margin:0 0 20px 0; padding:0;}
+h2 {font-size:43px;line-height:51px}
+h4 {font-size:29px;line-height:37px}
+h5 {font-size:22px;line-height:30px}
+
+.change-color {padding:5px;position:fixed;top:0;right:3px;z-index:10px}
+#ldark, #llight {border:1px #e1e4f1 solid;display:block;width:15px;height:15px}
+#ldark {background:#4b59a0;margin-bottom:1px}
+#llight {background:#a7afd7}
+
+.wrapper {margin:0 auto; overflow:hidden; width:978px}
+
+aside {float:left; margin-right:90px; width:220px}
+.logo {background:url('images/logo.png') top left no-repeat; border:0; display:block; width:220px; height:270px;}
+.social-icons {margin: 30px 0; text-align:center}
+.social-icons a {background:url('images/social.gif') top left no-repeat; border: 4px #6d7bc0 solid; display:inline-block; height:38px; width:38px; }
+.social-icons .social-middle {background-position:-39px 0; margin:0 30px}
+.social-icons .social-last {background-position:-78px 0;}
+.nav a, .nav a:visited {border-left: 10px #181a2c solid; color:#fff; display:block; margin-bottom: 10px; padding: 10px; font: normal normal normal 40px/48px Futura, Helvetica, Arial, Sans-serif; letter-spacing:-2px; text-transform:uppercase; text-decoration:none}
+.nav a:hover, .nav .active, .nav .active:visited {border-left-color:#314461}
+
+.posts {display:block; float:right; width:668px}
+.post {display:block;overflow:hidden}
+.post p, .post img {margin-bottom:20px}
+.post strong {font-weight:bold;}
+.post em {font-style:italic;}
+.post ul, .post ol {list-style:disc;margin:0 0 20px 30px}
+.post blockquote {margin: 0 20px 20px 20px; padding-left:10px; border-left: 3px #bbb solid; font-size:14px; line-height:22px;}
+.excerpt-first {margin-bottom:50px}
+.post-meta {background:#181a2c; display:block; font-size:11px; line-height:19px; margin:50px 0 100px 0; overflow:hidden; padding: 10px}
+.post-meta a img {border-color:#181a2c;}
+.post-meta div {float:left; height:60px; margin-right:20px; width:50px}
+.post-meta div + div {display:block; float:left; height:auto; width:558px;}
+.post-meta p {margin:0}
+
+.archive .post {width:319px; float:left; margin-right:30px;}
+.archive .couple-post {overflow:hidden; margin-bottom:30px}
+.archive .couple-post .post + .post {margin:0}
+
+#s {background:#fff url('images/search.gif') top right no-repeat;border:3px #6D7BC0 solid; height:20px; margin:0 0 30px 0; padding:3px; font-size:12px; width:208px;}
+
+.authors-page {margin-bottom:20px;overflow:hidden;}
+.image-author {float:left; margin: 0 20px 20px 0}
+.description-author {float:left; width:500px}
+
+nav {clear:both;overflow:hidden;margin-bottom:50px}
+.nav-previous {float:left}
+.nav-next {float:right}
+
+.comments {}
+.pingback {background:#07091b; overflow:hidden; margin-bottom:20px; padding:15px 15px 0 15px;}
+.comment {background:#07091b; overflow:hidden; margin-bottom:20px; padding:15px 15px 0 15px;}
+/* Style post's author properly */
+.byuser {}
+.comment-meta {overflow:hidden; margin-bottom:20px}
+.comment-avatar {float:left; margin-right:10px}
+.comment-avatar img {margin:0}
+.comment-meta-text span {font-size:32px;line-height:34px}
+
+#commentform {overflow:hidden; margin:100px 0}
+legend {font-size:24px; margin-bottom:20px}
+.comment-text img {border:0;margin:0}
+.comment-text br {display:block;height:20px;margin-bottom:20px}
+.comment-form-inputs {float:left; overflow:hidden}
+.comment-form-inputs input {width:90%; height:22px; margin:3px 0; padding:3px; font-size:12px;}
+.comment-form-inputs label {display:block}
+.comment-form-textarea {float:right; overflow:hidden}
+.awesomebutton {border:1px #292b3d solid; padding:10px;background:#181a2c;color:#fff;font-size:12px}
+
+#portamento_container {float:left;position:relative;}
+#portamento_container .nav {float:none; position:absolute;}
+#portamento_container .nav.fixed {position:fixed;}
+
+.post table {width:100%; margin-bottom:20px}
+.post thead {background:#6d7bc0; font-size:20px; font-weight:bold;}
+.post tr {border-bottom:1px #6d7bc0 solid;}
+.post td {padding:3px; vertical-align:middle}
+.post table span {display:block; font-size:12px}
+
+.aligncenter, .alignleft, .alignright, .clearboth {display:block}
+.aligncenter {margin:0 auto}
+.alignleft {float:left;margin:0 20px 20px 0}
+.alignright {float:right; margin:0 0 20px 20px}
+.clearboth {clear:both}
+
+.banner-ads {margin:10px 0 30px 0;text-align:center;padding-left:100px;}
+#boo-0, #boo-0 img {margin: 0 auto;text-align:center;}
+
+@media (max-width:600px) {
+  .change-color {display:none}
+
+  .wrapper, aside, #portamento_container, section, article, .posts, .posts.archive, .excerpt-first, .archive .couple-post, .couple-post .post, input, textarea, div { float:none; width:100%; margin:0; }
+  .wrapper { padding:10px; width:95%; }
+
+  .excerpt-first, .archive .post, .posts { margin-bottom: 20px; overflow:hidden; padding-top:20px; }
+
+  .archive .post { border-top: 1px #222 solid; }
+  .archive h1, .posts .post h1 { margin-bottom:20px }
+
+  aside, .nav { text-align:center; }
+  .logo { display:inline-block; }
+  #searchform {display:none}
+
+  .nav li { display:inline-block; }
+  .nav a, .nav a:visited { border:0; font-size:20px; line-height:20px; padding:5px; }
+  .nav a:hover, .nav .active, .nav .active:visited {color:#6d7bc0}
+
+  h1, h1 a, h1 a:visited, h3, h3 a, h3 a:visited { font-size:32px; line-height:40px; padding:0; }
+  h1, .archive .excerpt-first h1, h1 a, .archive .excerpt-first h1 a {font-size:48px; line-height:56px;}
+
+  .post img { max-width:98%; height:auto; width: auto\9; }
+
+  .post-meta, .post-meta div:last-child { font: normal normal normal 16px/24px Helvetica, Arial, Sans-serif; width:100% }
+  .post-meta div:first-child, .comment-avatar {display:none}
+  .comment-form-inputs input { width:100%; }
+  textarea { font-size:12px; padding:5px; width:98% }
+  .awesomebutton {font-size:16px}
+  .image-author {display:none}
+
+  .nav-previous, .nav-next { background: #6d7bc0; float:left; width:49%; text-align:center; }
+  .nav-next {margin-left:1%;}
+  .nav-previous a, .nav-next a { color: #fff;display:inline-block;padding:10px 0;text-decoration:none }
+
+  .post thead {font-size:16px;}
+
+  .banner-ads {display:none;}
+}
