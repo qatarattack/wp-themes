@@ -1,0 +1,3 @@
+jQuery(function() {$('input#s').focusin(function() {var value_input = $(this).attr("value");$(this).attr("value", "").focusout(function() {if ($(this).attr("value") == "") {$(this).attr("value", value_input);}
+});}).focusout(function() {});$("#ul-starred, #ul-comments").hide();$("#h3-starred").mouseenter(function() {
+$("#ul-starred").slideDown().mouseleave(function() {$(this).slideUp();});});$("#h3-comments").mouseenter(function() {$("#ul-comments").slideDown().mouseleave(function() {$(this).slideUp();});});});

@@ -1,0 +1,25 @@
+body {
+  background: #000 url('library/maintenace/background.jpg') no-repeat top center;
+  color: #fff;
+  font-family: "Trebuchet MS", Arial, Helvetica, Geneva, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: lighter;
+  
+  
+  margin-top: 500px;
+}
+
+p {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+span {
+  color: #6d7bc0;
+  font-size: 20px;
+}

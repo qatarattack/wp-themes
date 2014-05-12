@@ -1,0 +1,3 @@
+[17-Nov-2011 09:11:05] PHP Fatal error:  Call to undefined function get_header() in /home2/rpgdomes/public_html/wp-content/themes/twentyteleven-child/index.php on line 1
+[27-Feb-2012 16:04:41] PHP Warning:  PHP Startup: Suhosin Extension does not officially support PHP 5.2 and below anymore, because it is discontinued. Use it at your own risk. in Unknown on line 0
+[27-Feb-2012 16:05:18] PHP Warning:  PHP Startup: Suhosin Extension does not officially support PHP 5.2 and below anymore, because it is discontinued. Use it at your own risk. in Unknown on line 0
